@@ -2,7 +2,7 @@ const About = () => {
     return (
         <section className='relative bg-white py-10 py-4 border-t border-purple-600' id='about'>
             <div className='py-12'>
-                <div className='text-center md:text-left max-w-7xl mx-auto md:mx-56 px-4 sm:px-6 lg:px-8'>
+                <div className='max-w-7xl mx-auto md:mx-56 px-4 sm:px-6 lg:px-8'>
                     <div className='text-center'>
                         <h2 className='text-2xl text-purple-600 font-semibold tracking-wide uppercase'>About Me</h2>
                         <p className='max-w-2xl text-xl text-gray-500 lg:mx-auto'>

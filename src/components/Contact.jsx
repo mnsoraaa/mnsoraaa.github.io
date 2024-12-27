@@ -1,4 +1,4 @@
-import lottie from 'lottie-react'
+import Lottie from 'lottie-react'
 import contact from '../assets/contact.json'
 
 const Contact = () => {
@@ -9,7 +9,7 @@ const Contact = () => {
           <div className='md:w-1/2 mb-8 ml-2 md:mb-0'>
             <h2 className='text-2xl font-bold mb-3 text-purple-600'>Get in Touch</h2>
             <p className='mb-4 text-xl text-gray-500'>I'm always open to new opportunities and collaboration. Feel free to reach out!</p>
-            <lottie animationData={contact} className='w-[350px] mx-auto lg:w-[500px]'/>
+            <Lottie animationData={contact} className='w-[350px] mx-auto lg:w-[500px]'/>
           </div>
         </div>
       </div>
