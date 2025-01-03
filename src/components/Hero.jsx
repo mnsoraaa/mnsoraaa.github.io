@@ -1,6 +1,7 @@
 import hero from '../assets/hero.png'
 import node from '../assets/node.png'
 import nextjs from '../assets/nextjs.png'
+import vuejs from '../assets/vuejs.png'
 import expressjs from '../assets/expressjs.png'
 import php from '../assets/php.png'
 import laravel from '../assets/laravel.png'
@@ -24,10 +25,11 @@ const Hero = () => {
               <img src={node} alt="node" className='absolute w-10 top-0 left-4 md:left-36 rounded-full'/>
               <img src={php} alt="php" className='absolute w-10 top-96 left-8 rounded-full'/>
               <img src={react} alt="react" className='absolute w-10 top-36 left-0 rounded-full'/>
-              <img src={laravel} alt="laravel" className='absolute w-10 top-32 md:top-48 right-4'/>
+              <img src={laravel} alt="laravel" className='absolute w-10 top-24 md:top-48 right-1'/>
               <img src={redux} alt="redux" className='absolute w-10 top-0 right-5'/>
               <img src={nextjs} alt="nextjs" className='absolute w-10 rounded-full right-[-2rem] md:right-16 top-80'/>
-              <img src={tailwindcss} alt="tailwindcss" className='absolute w-10 rounded-full right-0 bottom-36'/>
+              <img src={vuejs} alt="vuejs" className='absolute w-10 bottom-24 md:bottom-80 right-4'/>
+              <img src={tailwindcss} alt="tailwindcss" className='absolute w-10 rounded-full right-0 bottom-44 md:bottom-46'/>
               <img src={expressjs} alt="expressjs" className='absolute w-10 bottom-12 md:bottom-56 left-[-2rem] md:left-4 rounded-full'/>
             </div>
         </div>
